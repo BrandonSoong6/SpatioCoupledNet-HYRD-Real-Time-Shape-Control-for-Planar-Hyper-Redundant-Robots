@@ -1,4 +1,4 @@
-# 🧠 SpatioCoupledNet-HYRD Control System
+# SpatioCoupledNet-HYRD: Real-Time Shape Control for Planar Hyper-Redundant Robots
 
 [English](#english) | [中文](#中文)
 
@@ -15,8 +15,17 @@
 
 ### Demo
 
-- [▶ Full system demo — real-time shape control and moving-obstacle avoidance](media/iros2026_0712.mp4)
-- [▶ Hardware bring-up — open-loop Xbox teleoperation](media/open_loop_control.mp4)
+#### Full System Demo — Real-Time Shape Control and Moving-Obstacle Avoidance
+
+<p align="center">
+  <img src="media/iros2026_0712.gif" width="760" alt="Full system demonstration of shape control and moving-obstacle avoidance">
+</p>
+
+#### Hardware Bring-up — Open-Loop Xbox Teleoperation
+
+<p align="center">
+  <img src="media/open_loop_control.gif" width="760" alt="Open-loop Xbox teleoperation for hardware bring-up">
+</p>
 
 The full-system demo shows body reconfiguration with visual feedback and obstacle-aware motion. The Xbox teleoperation video is deliberately separate from the learned controller: it validates the hardware actuation chain, ROS2 command path, and segment-level mechanical response.
 
@@ -368,8 +377,17 @@ This project was developed during a SMART visiting student period and retains 10
 
 ### 演示视频
 
-- [▶ 完整系统演示——实时形状控制与动态障碍物避让](media/iros2026_0712.mp4)
-- [▶ 硬件调试演示——Xbox 开环遥操作](media/open_loop_control.mp4)
+#### 完整系统演示——实时形状控制与动态障碍物避让
+
+<p align="center">
+  <img src="media/iros2026_0712.gif" width="760" alt="实时形状控制与动态障碍物避让的完整系统演示">
+</p>
+
+#### 硬件调试演示——Xbox 开环遥操作
+
+<p align="center">
+  <img src="media/open_loop_control.gif" width="760" alt="用于硬件调试的 Xbox 开环遥操作">
+</p>
 
 完整系统视频展示了基于视觉反馈的机身重构与避障。Xbox 视频刻意与学习控制器分开：它用于验证硬件执行链路、ROS2 命令通路，以及各节段的机械响应，并非该项目的高层控制演示。
 
